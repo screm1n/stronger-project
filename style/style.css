@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital@0;1&family=Martian+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+:root {
+    --fonte0: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte1: 'Bebas Neue', sans-serif;
+    --fonte2: 'Lato', sans-serif;
+    --fonte3: 'Martian Mono', monospace;
+    --fonte4: 'Russo One', sans-serif;
+}
+
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Martian Mono', monospace; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #aa50b0;
+    font-family: var(--fonte0);
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 40px;
+    font-variant: small-caps;
+    font-family: var(--fonte4);
+    font-size: 5vw;
+}
+
+header > p {
+    padding-bottom: 40px;
+    font-family: var(--fonte2);
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+section > p {
+    padding-bottom: 1.2em;
+}
+
+section.normal {
+    background-image: linear-gradient(to bottom, #ab67b4, #b150aa);
+    color: black;
+    padding-top: 2vh;
+    padding-bottom: 0vh;
+}
+
+section.imagem {
+    background-color: #87307b;
+    color: white;
+    text-shadow: 1px 1.8px 1.5px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.531);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: #4b1b44c4;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+section#img01 {
+    background-image: url('../imagens/graduation01.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('../imagens/graduation02.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+section#img03 {
+    background-image: url('../imagens/graduation03.jpg');
+    background-position: bottom center;
+    background-size: cover;
+}
+
+footer {
+    font-family: var(--fonte2);
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 7px;
+}
