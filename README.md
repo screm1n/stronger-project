@@ -1,5 +1,5 @@
 # stronger-project
-This project is a design of a website with the lyrics of the song “Stronger”, with images in parallax effect.
+Este projeto é o design de um site com a letra de uma música e com imagens em efeito parallax.
 
 https://screm1n.github.io/stronger-project/
 
